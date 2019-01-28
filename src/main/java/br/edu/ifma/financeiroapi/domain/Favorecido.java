@@ -21,9 +21,11 @@ public class Favorecido {
     private String documento;
 
     @NotNull
+    @Column(nullable = false)
     private String razao;
 
     @NotNull
+    @Column(nullable = false)
     private String fantasia;
 
     @Size(min=8, max = 16)
